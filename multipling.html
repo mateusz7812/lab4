@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+        <link rel="Stylesheet" href="main.css"/>
+        <meta charset="UTF-8">
+        <meta name="description" content="Strona zawierająca przykłady wykorzystania znaków specjalnych, formatowania tekstu, list, tabel.">
+        <meta name="keywords" content="Znaki specjalne, formatowanie, listy, tabele">
+        <meta name="author" content="Mateusz Niecikowski">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Przykładowa strona</title>
+        <meta http-equiv="cache-control" content="no-cache"/>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="main.js"></script>
+        <script src="multiplying.js"></script>
+    </head>
+    <body>
+        <header id="page-header">
+            <h2>Tabliczka mnożenia</h2>
+        </header>
+        <main id="multiplying-main">
+            <section id="form_section">
+                <h3>Formularz</h3>
+                <form>
+                    <label for="number">Podaj liczbę: </label>
+                    <input type="number" id="number"/>
+                    <input type="button" value="Policz" onclick="prepareTable(document.getElementById('number').value)"/>
+                </form>
+            </section>
+        </main>
+        <footer>
+            &reg; 2021 Mateusz Niecikowski
+        </footer>
+    </body>
+</html>
