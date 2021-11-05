@@ -159,9 +159,11 @@ footer{
     width: 80%;
     height: 30vw;
     position: relative;
+    margin-top: 10px;
 }
 
 #my-canvas{
+    background-color: whitesmoke;
     display: block;
     position: absolute;
     top: 10px;
